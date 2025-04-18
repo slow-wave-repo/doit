@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Kivy
+*.kv~
+*.spec
+
+# Buildozer (Android)
+.bin/
+buildozer.spec
+.gradle/
+.local.properties
+build/
+*.apk
+*.aab
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+*.log.*
+.cache/
+*.cache
+
+# Sensitive data
+.env
+*.pem
+*.key
+*.cert
+secrets.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Project-specific
+/android/
+/ios/
